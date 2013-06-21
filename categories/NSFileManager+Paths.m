@@ -7,7 +7,6 @@
 //
 
 #import "NSFileManager+Paths.h"
-#import "AppDelegate.h"
 //Querying the cache directory is expensive so we memoize it
 static NSString *cacheDirectory = nil;
 @implementation NSFileManager (Paths)
@@ -39,7 +38,7 @@ static NSString *cacheDirectory = nil;
 
 + (NSURL *)urlForFilename:(NSString *)filename extension:(NSString *)extension
 {
-    NSBundle *classBundle = [NSBundle bundleForClass:[AppDelegate class]];
+    NSBundle *classBundle = [NSBundle bundleForClass:[[UIApplication sharedApplication].delegate class]];
     return [classBundle URLForResource:filename withExtension:extension];
 }
 

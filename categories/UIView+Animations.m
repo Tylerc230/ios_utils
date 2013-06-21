@@ -8,6 +8,10 @@
 
 #import "UIView+Animations.h"
 #define kViewSlideAnimationDuration .5f
+#define kBounceScaleStep1 1.1f
+#define kBounceScaleStep2 .9f
+#define kBounceDurationStep1 .25f
+#define kBounceDurationStep2 .25f
 @implementation UIView (Animations)
 
 + (void)afterDelay:(float)delay do:(AnimationCompleteBlock)block
