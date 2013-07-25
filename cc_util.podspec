@@ -7,6 +7,7 @@ s.homepage = 'https://github.com/Tylerc230/ios_utils.git'
 s.author   = { 'Tyler Casselman' => '' }
 
 s.source   = { :git => 'https://github.com/Tylerc230/ios_utils.git', :tag => '1.0' }
+s.requires_arc = true
 
 s.description = 'Small collection of utility classes and categories to make my life easier.'
 
