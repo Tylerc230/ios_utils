@@ -1,9 +1,8 @@
 //
 //  UIView+NibLoading.m
-//  WEB-MD
 //
 //  Created by Tyler Casselman on 4/25/12.
-//  Copyright (c) 2012 Web MD. All rights reserved.
+//  Copyright (c) 2012 Casselman Consulting. All rights reserved.
 //
 
 #import "UIView+NibLoading.h"

@@ -1,9 +1,8 @@
 //
 //  UIView+Animations.h
-//  bestbuy_catalog_v4
 //
 //  Created by Tyler Casselman on 8/29/12.
-//  Copyright (c) 2012 Sequence. All rights reserved.
+//  Copyright (c) 2012 Casselman Consulting. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>

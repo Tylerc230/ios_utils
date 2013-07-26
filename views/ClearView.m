@@ -1,9 +1,8 @@
 //
 //  ClearView.m
-//  CalmApp
 //
 //  Created by Tyler Casselman on 11/13/12.
-//  Copyright (c) 2012 Calm. All rights reserved.
+//  Copyright (c) 2012 Casselman Consulting. All rights reserved.
 //
 
 #import "ClearView.h"

@@ -1,9 +1,8 @@
 //
 //  NSFileManager+Paths.h
-//  bestbuy_catalog
 //
 //  Created by Tyler Casselman on 6/6/12.
-//  Copyright (c) 2012 Sequence. All rights reserved.
+//  Copyright (c) 2012 Casselman Consulting. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>

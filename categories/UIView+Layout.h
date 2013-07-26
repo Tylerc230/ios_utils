@@ -1,9 +1,8 @@
 //
 //  UIView+Layout.h
-//  WEB-MD
 //
 //  Created by Tyler Casselman on 5/8/12.
-//  Copyright (c) 2012 Sequence. All rights reserved.
+//  Copyright (c) 2012 Casselman Consulting. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>

@@ -1,9 +1,8 @@
 //
 //  UIView+NibLoading.h
-//  WEB-MD
 //
 //  Created by Tyler Casselman on 11/16/12  .
-//  Copyright (c) 2012 Calm.com. All rights reserved.
+//  Copyright (c) 2012 Casselman Consulting. All rights reserved.
 //
 
 /*
