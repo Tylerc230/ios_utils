@@ -10,7 +10,12 @@
 @implementation UIImage (Helpers)
 + (UIImage *)imageWithColor:(UIColor *)color
 {
-    CGRect rect = CGRectMake(0, 0, 1, 1);
+    return [UIImage imageWithColor:color size:CGSizeMake(1, 2)];
+}
+
++ (UIImage *)imageWithColor:(UIColor *)color size:(CGSize)imageSize
+{
+    CGRect rect = CGRectMake(0, 0, imageSize.width, imageSize.height);
     UIGraphicsBeginImageContext(rect.size);
     CGContextRef context = UIGraphicsGetCurrentContext();
 
@@ -21,5 +26,4 @@
     UIGraphicsEndImageContext();
     return img;
 }
-
 @end

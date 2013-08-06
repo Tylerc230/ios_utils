@@ -9,4 +9,5 @@
 
 @interface UIImage (Helpers)
 + (UIImage *)imageWithColor:(UIColor *)color;
++ (UIImage *)imageWithColor:(UIColor *)color size:(CGSize)imageSize;
 @end
