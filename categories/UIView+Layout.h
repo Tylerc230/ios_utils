@@ -29,4 +29,6 @@
 - (void)rightAlignWithParent;
 - (void)bottomAlignWithParent;
 
+- (void)addFillConstraints;
+- (void)addConstraintFlushWithEdge:(NSLayoutAttribute)edge;
 @end

@@ -122,4 +122,24 @@
     self.x = self.superview.width - self.width;
 }
 
+#pragma AutoLayout
+
+- (void)addFillConstraints {
+    [self addConstraintFlushWithEdge:NSLayoutAttributeBottom];
+    [self addConstraintFlushWithEdge:NSLayoutAttributeTop];
+    [self addConstraintFlushWithEdge:NSLayoutAttributeLeft];
+    [self addConstraintFlushWithEdge:NSLayoutAttributeRight];
+}
+
+- (void)addConstraintFlushWithEdge:(NSLayoutAttribute)edge {
+    NSLayoutConstraint *constraint = [NSLayoutConstraint constraintWithItem:self
+                                                                  attribute:edge
+                                                                  relatedBy:NSLayoutRelationEqual
+                                                                     toItem:self.superview
+                                                                  attribute:edge
+                                                                 multiplier:1.0
+                                                                   constant:0.0];
+    [self.superview addConstraint:constraint];
+}
+
 @end
